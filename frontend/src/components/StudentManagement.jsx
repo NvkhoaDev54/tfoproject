@@ -603,7 +603,7 @@ const StudentManagement = () => {
               Refresh from Blockchain
             </button>
             <button
-              onClick={() => setShowIssueCertificateForm(true)}
+              onClick={() => setShowAddCertificateForm(true)}
               disabled={loading}
               className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
